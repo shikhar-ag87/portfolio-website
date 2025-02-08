@@ -179,7 +179,8 @@ section h1 {
     border-radius: 50%;
     margin: 3rem auto;
     overflow: hidden;
-    box-shadow: 0 20px 75px rgba(255, 7, 57, 0.438);
+    box-shadow: 0 0 55px rgba(255, 7, 57, 0.247);
+    border: 2px solid rgba(255, 7, 57, 0.176);
 }
 
 #about #pfp img {
@@ -281,6 +282,8 @@ section h1 {
     border-radius: 0.5rem;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+
+    position: relative;
 }
 
 #projects .projects-subsection .items-container .project-items .project-item a:hover {
@@ -294,13 +297,20 @@ section h1 {
     flex-direction: column;
     padding: 1rem;
     overflow: hidden;
+}
 
+pixel-canvas {
+    /* background-color: pink; */
+    position: absolute;
+    z-index: -4;
+    opacity: .8;
 }
 
 /* picture inside */
 #projects .projects-subsection .items-container .project-items .project-item a .project-content picture {
     width: 100%;
     height: 60%;
+    background-color: #000000;
     border: 2px solid rgba(255, 255, 255, 0.249);
     border-radius: 0.5rem;
 }
@@ -315,11 +325,11 @@ section h1 {
 #projects .projects-subsection .items-container .project-items .project-item a .project-content p.project-name {
     padding: 0.5rem;
     font-weight: bold;
-    font-size: 20px;
 }
 
-#projects .projects-subsection .project-item a .project-content p.project-description {
+#projects .projects-subsection .items-container .project-items .project-item a .project-content p.project-description {
     height: 40%;
+    font-size: 15px;
 }
 
 #skills {
