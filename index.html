@@ -435,6 +435,11 @@ class PixelCanvas extends HTMLElement {
 
     sheet.replaceSync(PixelCanvas.css);
 
+    // adding a bit of custom styling for positioning and opacity 
+    this.style = `position: absolute;
+    z-index: -4;
+    opacity: .8;`
+    
     this.shadowroot.adoptedStyleSheets = [sheet];
     this.shadowroot.append(canvas);
     this.canvas = this.shadowroot.querySelector("canvas");

@@ -299,13 +299,6 @@ section h1 {
     overflow: hidden;
 }
 
-pixel-canvas {
-    /* background-color: pink; */
-    position: absolute;
-    z-index: -4;
-    opacity: .8;
-}
-
 /* picture inside */
 #projects .projects-subsection .items-container .project-items .project-item a .project-content picture {
     width: 100%;
