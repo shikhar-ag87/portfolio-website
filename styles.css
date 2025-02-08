@@ -34,17 +34,14 @@ html {
 
 body {
     background-color: var(--background-color);
-
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: var(--nav-bar-size);
-    /* position: relative; */
 }
 
 #particles-js {
     position: fixed;
     height: 100%;
     width: 100%;
-    /* height: calc(100% - var(--nav-bar-size)); */
     border: 0px;
     z-index: -100;
 }
@@ -270,9 +267,7 @@ section h1 {
 }
 
 #projects .projects-subsection .items-container .project-items .project-item {
-    /* background-color: #eeeff1; */
     height: 100%;
-    /* min-width: 14rem; */
     aspect-ratio: 2.7/4;
     padding: 1.5rem 0.8rem;
 }
@@ -306,7 +301,6 @@ section h1 {
 #projects .projects-subsection .items-container .project-items .project-item a .project-content picture {
     width: 100%;
     height: 60%;
-    /* padding: 0.5rem; */
     border: 2px solid rgba(255, 255, 255, 0.249);
     border-radius: 0.5rem;
 }
@@ -315,7 +309,6 @@ section h1 {
     width: 100%;
     height: 100%;
     padding: 0.5rem;
-    /* background-color: #00000000; */
     border-radius: 0.5rem;
 }
 
@@ -342,8 +335,6 @@ section h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(218, 109, 251, 0.486); */
-
 }
 
 #skills .skill-items {
@@ -352,7 +343,6 @@ section h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    /* background-color: rgba(250, 235, 215, 0.537); */
 }
 
 
@@ -394,15 +384,12 @@ footer {
 
 #socials .socials-container {
     height: 100%;
-    /* margin-top: 4rem; */
     position: absolute;
     top: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(218, 109, 251, 0.486); */
-
 }
 
 #socials .social-items {
@@ -411,7 +398,6 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    /* background-color: rgba(250, 235, 215, 0.537); */
 }
 
 
